@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte caninos</title>
+</head>
+<body>
+    <h1>Bienvenidos ingreso de resgistro de los caninos rescatos</h1>
+    <nav>
+        <a href="index.html">inicio</a>
+        <a href="reportar.html">reportar</a>
+        <a href="rescate.html">rescate</a>
+    </nav>
+    <form action="">
+        <label for="Numero de caso ">Numero de caso :</label>
+        <input type="text" id="numero de caso" required><br>
+        <label for="Genero">Genero:</label>
+        <input type="text" id="Genero" required><br>
+        <label for="Especie">Especie:</label>
+        <input type="text" id="Especie" required><br>
+        <label for="Estado">Estado:</label>
+        <input type="text" id="Estado" required><br>
+        <label for="categoria">categoria:</label>
+        <select name="categoria" id="categoria">
+            <Option value=""></Option>
+            <option value="Perros">Perros</option>
+            <option value="Gatos">Gatos</option>
+            <option value="Fauna Salvaje">Fauna Salvaje</option>
+        </select> <br>
+        
+        
+         <p>Seleciona la urgencia medica</p>
+         <input type="radio" name="urgencia medica"value="alta">alta
+            <input type="radio" name="urgencia medica"value="media">media
+            <input type="radio" name="urgencia medica"value="baja">baja <br>
+           <label for="descripcion">Detalle del estado actual de la macota :</label> <br>
+<textarea
+    id="descripcion"
+    name="descripcion"
+    rows="5"
+    cols="40"
+    placeholder="descripcion del estado actual de la mascota ..."
+></textarea> <br>
+        <button type="submit">Enviar conctacto</button>
+        <button type="reset">Limpiar</button> <br>
+    </form> 
+</body>
+</html>
